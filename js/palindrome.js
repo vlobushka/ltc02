@@ -6,7 +6,7 @@ function palindrome(text) {
             console.log('Palindrome')
         } else {
             if (low [0] == low [endChar]) {
-                   return palindrome(low.substring(1, endChar))
+                   return palindrome(low.substr(1, endChar))
         }   else{
             console.log('Not a palindrome')
             }
